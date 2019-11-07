@@ -48,3 +48,31 @@ h1 {
   }
 
 }
+
+#rainbow-violet {
+  animation: violet-animate 1s linear forwards;
+}
+
+#rainbow-indigo {
+  animation: indigo-animate 1s linear forwards;
+}
+
+#rainbow-blue {
+  animation: blue-animate 1s linear forwards;
+}
+
+#rainbow-green {
+  animation: green-animate 1s linear forwards;
+}
+
+#rainbow-yellow {
+  animation: yellowanimate 1s linear forwards;
+}
+
+#rainbow-orange {
+  animation: orange-animate 1s linear forwards;
+}
+
+#rainbow-red {
+  animation: red-animate 1s linear forwards;
+}

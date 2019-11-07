@@ -28,6 +28,7 @@ h1 {
   100% {
     opacity: 1;
   }
+
 }
 
 #narwhal-body {
@@ -51,28 +52,126 @@ h1 {
 
 #rainbow-violet {
   animation: violet-animate 1s linear forwards;
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 1918px;
 }
 
 #rainbow-indigo {
   animation: indigo-animate 1s linear forwards;
+  stroke-dasharray: 1812px;
+  stroke-dashoffset: 1812px;
 }
 
 #rainbow-blue {
   animation: blue-animate 1s linear forwards;
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
 }
 
 #rainbow-green {
   animation: green-animate 1s linear forwards;
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
 }
 
 #rainbow-yellow {
-  animation: yellowanimate 1s linear forwards;
+  animation: yellow-animate 1s linear forwards;
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
 }
 
 #rainbow-orange {
   animation: orange-animate 1s linear forwards;
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
 }
 
 #rainbow-red {
   animation: red-animate 1s linear forwards;
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
+}
+
+@keyframes violet-animate {
+
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes indigo-animate {
+
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes blue-animate {
+
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes green-animate {
+
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes yellow-animate {
+
+  0% {
+    stroke-dashoffset: 1483px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes orange-animate {
+
+  0% {
+    stroke-dashoffset: 1366px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes red-animate {
+
+  0% {
+    stroke-dashoffset: 1243px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
 }
